@@ -31,9 +31,9 @@ export default function() {
        <div className="icon">
         <FontAwesomeIcon icon="paper-plane" />
         </div>
-        <div className="text">
-          devildog1269@hotmail.com
-          </div>
+         <div className="text">
+          gimmesumcoding@gmail.com
+         </div>
         </div>
 
         <div className="bullet-point-group">
@@ -41,7 +41,7 @@ export default function() {
         <FontAwesomeIcon icon="map" />
         </div>
        <div className="text">
-        East Bay, California
+        East Bay, Northern California
         </div>
       </div>
     </div>

@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: calc(100vh - 84px);
-}
+
 
 .left-column {
     background-size: cover;
@@ -13,4 +13,24 @@
     justify-content: center;
     align-items: center;
     background-color: $offwhite;
+
+    .auth-form-wrapper {
+        @include input-element();
+        @include base-grid();
+        padding: 42px;
+        grid-gap: 21px;
+
+    .form-group {
+        display: flex;
+
+      svg {
+        font-size: 2em;
+        color: red;
+        margin-right: 15px;
+
+    }
+
+      }
+    }
+  }
 }
